@@ -35,25 +35,25 @@ public class ExerciseIntroTestingTest {
 
 
     @Test
-    public void testFindLastOK(){
-        final int result = ExerciseIntroTesting.findLast(new int []{2, 3, 5}, 2);
+    public void testFindLast2(){
+        final int result = ExerciseIntroTesting.findLast(new int []{3, 5}, 2);
         assertEquals(result, -1);
     }
 
     @Test
-    public void testLastZeroOK(){
-        final int result = ExerciseIntroTesting.lastZero(new int []{0, 1, 0});
+    public void testLastZero2(){
+        final int result = ExerciseIntroTesting.lastZero(new int []{0, 1});
         assertEquals(result, 0);
     }
 
     @Test
-    public void testCountPositiveOK(){
-        final int result = ExerciseIntroTesting.countPositive(new int []{-4, 2, 0, 2});
-        assertEquals(result, 3);
+    public void testCountPositive2(){
+        final int result = ExerciseIntroTesting.countPositive(new int []{-4, 2, 2});
+        assertEquals(result, 2);
     }
 
     @Test
-    public void testOddOrPosOK(){
+    public void testOddOrPos2(){
         final int result = ExerciseIntroTesting.oddOrPos(new int []{-3, -2, 0, 1, 4});
         assertEquals(result, 2);
     }
